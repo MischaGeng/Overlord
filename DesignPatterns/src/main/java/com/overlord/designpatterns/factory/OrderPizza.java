@@ -10,6 +10,9 @@ import com.overlord.designpatterns.factory.pizza.GreekPizza;
 import com.overlord.designpatterns.factory.pizza.PepperPizza;
 import com.overlord.designpatterns.factory.pizza.Pizza;
 
+/**
+ * 无工厂模式模式
+ */
 public class OrderPizza {
 
 	public OrderPizza() {

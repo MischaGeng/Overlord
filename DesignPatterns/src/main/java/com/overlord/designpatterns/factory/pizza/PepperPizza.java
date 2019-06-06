@@ -1,5 +1,9 @@
 package com.overlord.designpatterns.factory.pizza;
 
+
+/**
+ * 胡椒pizza
+ */
 public class PepperPizza extends Pizza {
 
 	@Override

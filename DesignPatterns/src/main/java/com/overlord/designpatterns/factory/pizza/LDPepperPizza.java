@@ -1,5 +1,8 @@
 package com.overlord.designpatterns.factory.pizza;
 
+/**
+ * 伦敦口味胡椒pizza
+ */
 public class LDPepperPizza extends Pizza {
 
 	@Override

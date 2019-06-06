@@ -1,5 +1,8 @@
 package com.overlord.designpatterns.factory.pizza;
 
+/**
+ * pizza
+ */
 public abstract class Pizza {
 	protected String name;
 	
