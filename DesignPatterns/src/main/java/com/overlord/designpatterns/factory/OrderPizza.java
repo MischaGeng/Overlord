@@ -1,14 +1,14 @@
-package factory.pizzastore;
+package com.overlord.designpatterns.factory;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import factory.pizzastore.pizza.CheesePizza;
-import factory.pizzastore.pizza.ChinesePizza;
-import factory.pizzastore.pizza.GreekPizza;
-import factory.pizzastore.pizza.PepperPizza;
-import factory.pizzastore.pizza.Pizza;
+import com.overlord.designpatterns.factory.pizza.CheesePizza;
+import com.overlord.designpatterns.factory.pizza.ChinesePizza;
+import com.overlord.designpatterns.factory.pizza.GreekPizza;
+import com.overlord.designpatterns.factory.pizza.PepperPizza;
+import com.overlord.designpatterns.factory.pizza.Pizza;
 
 public class OrderPizza {
 
