@@ -8,35 +8,35 @@ import com.overlord.designpatterns.factory.pizza.Pizza;
 
 public abstract class OrderPizza {
 
-	public OrderPizza() {
-		Pizza pizza = null;
-		String ordertype;
+    public OrderPizza() {
+        Pizza pizza = null;
+        String ordertype;
 
-		do {
-			ordertype = gettype();
-			pizza = createPizza(ordertype);
+        do {
+            ordertype = getType();
+            pizza = createPizza(ordertype);
 
-			pizza.prepare();
-			pizza.bake();
-			pizza.cut();
-			pizza.box();
-		} while (true);
-	}
+            pizza.prepare();
+            pizza.bake();
+            pizza.cut();
+            pizza.box();
+        } while (true);
+    }
 
-	abstract Pizza createPizza(String ordertype);
+    abstract Pizza createPizza(String ordertype);
 
-	private String gettype() {
-		try {
-			BufferedReader strin = new BufferedReader(new InputStreamReader(
-					System.in));
-			System.out.println("input pizza type:");
-			String str = strin.readLine();
+    private String getType() {
+        try {
+            BufferedReader strin = new BufferedReader(new InputStreamReader(
+                    System.in));
+            System.out.println("input pizza type:");
+            String str = strin.readLine();
 
-			return str;
-		} catch (IOException e) {
-			e.printStackTrace();
-			return "";
-		}
-	}
+            return str;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "";
+        }
+    }
 
 }

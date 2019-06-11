@@ -16,13 +16,13 @@ public class OrderPizza {
 
 	public void setFactory(SimplePizzaFactory mSimplePizzaFactory) {
 		Pizza pizza = null;
-		String ordertype;
+		String orderType;
 
 		this.mSimplePizzaFactory = mSimplePizzaFactory;
 
 		do {
-			ordertype = gettype();
-			pizza = mSimplePizzaFactory.CreatePizza(ordertype);
+			orderType = getType();
+			pizza = mSimplePizzaFactory.CreatePizza(orderType);
 			if (pizza != null) {
 				pizza.prepare();
 				pizza.bake();
@@ -34,7 +34,7 @@ public class OrderPizza {
 
 	}
 
-	private String gettype() {
+	private String getType() {
 		try {
 			BufferedReader strin = new BufferedReader(new InputStreamReader(
 					System.in));

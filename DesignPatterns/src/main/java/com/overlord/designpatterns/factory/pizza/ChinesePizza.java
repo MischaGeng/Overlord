@@ -8,7 +8,7 @@ public class ChinesePizza extends Pizza {
 	@Override
 	public void prepare() {
 		// TODO Auto-generated method stub
-		super.setname("ChinesePizza");
+		super.setName("ChinesePizza");
 		
 		System.out.println(name+" preparing;");
 	}

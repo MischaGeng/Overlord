@@ -21,7 +21,7 @@ public class OrderPizza {
 		this.mFactory = mFactory;
 
 		do {
-			ordertype = gettype();
+			ordertype = getType();
 			pizza = mFactory.CreatePizza(ordertype);
 			if (pizza != null) {
 				pizza.prepare();
@@ -34,7 +34,7 @@ public class OrderPizza {
 
 	}
 
-	private String gettype() {
+	private String getType() {
 		try {
 			BufferedReader strin = new BufferedReader(new InputStreamReader(
 					System.in));

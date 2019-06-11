@@ -7,14 +7,14 @@ import com.overlord.designpatterns.factory.pizza.Pizza;
 
 public class SimplePizzaFactory {
 
-	public Pizza CreatePizza(String ordertype) {
+	public Pizza CreatePizza(String orderType) {
 		Pizza pizza = null;
 
-		if (ordertype.equals("cheese")) {
+		if (orderType.equals("cheese")) {
 			pizza = new CheesePizza();
-		} else if (ordertype.equals("greek")) {
+		} else if (orderType.equals("greek")) {
 			pizza = new GreekPizza();
-		} else if (ordertype.equals("pepper")) {
+		} else if (orderType.equals("pepper")) {
 			pizza = new PepperPizza();
 		}
 		return pizza;

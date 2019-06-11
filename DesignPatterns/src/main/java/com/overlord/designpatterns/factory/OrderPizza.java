@@ -20,7 +20,7 @@ public class OrderPizza {
 		String ordertype;
 
 		do {
-			ordertype = gettype();
+			ordertype = getType();
 
 			if (ordertype.equals("cheese")) {
 				pizza = new CheesePizza();
@@ -40,7 +40,7 @@ public class OrderPizza {
 		} while (true);
 	}
 
-	private String gettype() {
+	private String getType() {
 		try {
 			BufferedReader strin = new BufferedReader(new InputStreamReader(
 					System.in));
