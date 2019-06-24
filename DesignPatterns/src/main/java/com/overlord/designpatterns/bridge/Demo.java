@@ -1,5 +1,8 @@
 package com.overlord.designpatterns.bridge;
 
+/**
+ * 测试
+ */
 public class Demo {
 
     public static void main(String[]args) {

@@ -1,5 +1,8 @@
 package com.overlord.designpatterns.bridge;
 
+/**
+ * N品牌手机
+ */
 public class NBrand extends Brand {
 
     @Override
