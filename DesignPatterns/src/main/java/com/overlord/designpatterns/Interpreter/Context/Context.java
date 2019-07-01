@@ -2,6 +2,9 @@ package com.overlord.designpatterns.Interpreter.Context;
 
 import com.overlord.designpatterns.Interpreter.AbstractExpression.AbstractExpression;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Context {
 
     private Map<AbstractExpression, Integer> map = new HashMap<>();
