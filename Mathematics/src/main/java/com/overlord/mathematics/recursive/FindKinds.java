@@ -22,9 +22,9 @@ public class FindKinds {
 
     public static void main(String[] args) {
 
-        sumKindsByRecur(0);
-
-        System.out.println(sumOfKinds);
+//        sumKindsByRecur(0);
+//
+//        System.out.println(sumOfKinds);
 
         int totalReward = 10;
 
@@ -39,15 +39,17 @@ public class FindKinds {
             return;
         }
 
-        if(10 < sumOfNum) {
+        if (10 < sumOfNum) {
             return;
         }
 
         for (int i = 0; i < RECORDS.length; i++) {
 
-            sumOfNum = sumOfNum + RECORDS[i];
-            sumKindsByRecur(sumOfNum);
+            //千万不要改变上一个方法中的局部变量
+//            sumOfNum = sumOfNum + RECORDS[i];
+//            sumKindsByRecur(sumOfNum);
 
+            sumKindsByRecur(sumOfNum + RECORDS[i]);
         }
     }
 
@@ -59,6 +61,7 @@ public class FindKinds {
         }
 
         if (totalReward < 0) {
+            System.out.println(totalReward);
             return;
         } else {
 
@@ -68,8 +71,11 @@ public class FindKinds {
 
                 newReult.add(RECORDS[i]);
 
-                get(totalReward - RECORDS[i], newReult);
+                long remaid = totalReward - RECORDS[i];
+                System.out.println(totalReward);
+                get(remaid, newReult);
 
+//                get(totalReward - RECORDS[i], newReult);
             }
 
         }

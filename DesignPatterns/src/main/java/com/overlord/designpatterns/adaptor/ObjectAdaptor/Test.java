@@ -1,6 +1,5 @@
 package com.overlord.designpatterns.adaptor.ObjectAdaptor;
 
-import com.overlord.designpatterns.adaptor.ObjectAdaptor.Adapter;
 import com.overlord.designpatterns.adaptor.Common.Target;
 
 public class Test {

@@ -1,7 +1,5 @@
 package com.overlord.designpatterns.proxy;
 
-import com.overlord.designpatterns.proxy.IUserDao;
-
 /**
  * 接口实现
  * 目标对象

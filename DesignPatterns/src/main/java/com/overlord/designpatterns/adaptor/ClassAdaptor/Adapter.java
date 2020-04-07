@@ -1,6 +1,7 @@
 package com.overlord.designpatterns.adaptor.ClassAdaptor;
 
-import com.overlord.designpatterns.adaptor.Common.*;
+import com.overlord.designpatterns.adaptor.Common.Adapted;
+import com.overlord.designpatterns.adaptor.Common.Target;
 
 // 适配器类，作用：Adapted-->Target
 public class Adapter extends Adapted implements Target {

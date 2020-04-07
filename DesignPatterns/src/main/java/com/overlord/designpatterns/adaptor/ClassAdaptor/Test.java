@@ -1,6 +1,6 @@
 package com.overlord.designpatterns.adaptor.ClassAdaptor;
 
-import com.overlord.designpatterns.adaptor.Common.*;
+import com.overlord.designpatterns.adaptor.Common.Target;
 
 public class Test {
     public static void main(String[] args) {
