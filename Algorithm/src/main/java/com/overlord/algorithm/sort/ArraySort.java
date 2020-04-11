@@ -31,7 +31,7 @@ public class ArraySort {
 //        System.out.println(Arrays.toString(InsertionSort.sort(array1)));
 //        System.out.println(Arrays.toString(InsertionSort.sort(array2)));
 
-        System.out.println(Arrays.toString(CompareSort.sort(array1)));
-        System.out.println(Arrays.toString(CompareSort.sort(array2)));
+        System.out.println(Arrays.toString(SwapSort.sort(array1)));
+        System.out.println(Arrays.toString(SwapSort.sort(array2)));
     }
 }

@@ -6,14 +6,14 @@ package com.overlord.algorithm.sort;
  * @author MischaGeng
  * @Created Date: 2020/04/07
  * @Since JDK 1.8
- * @Title: CompareSort
+ * @Title: SwapSort
  * @ProjectName overlord
  *
  * @Modified by:
  * @Modified date:
  * @Problem no:
  */
-public class CompareSort {
+public class SwapSort {
 
     public static int[] sort(int[] array) {
 
